@@ -6,13 +6,13 @@
 //  Copyright © 2018 Roobi Creative. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "ListViewController.h"
 
-@interface ViewController ()
+@interface ListViewController ()
 
 @end
 
-@implementation ViewController
+@implementation ListViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
