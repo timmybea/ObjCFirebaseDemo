@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-NS_ASSUME_NONNULL_BEGIN
-
 @interface User : NSObject
 
 @property (strong, nonatomic) NSString *name;
@@ -19,5 +17,3 @@ NS_ASSUME_NONNULL_BEGIN
 - (id) initWithName: (NSString *)name andEmail: (NSString *) email andUUID: (NSString *) uuid;
 
 @end
-
-NS_ASSUME_NONNULL_END

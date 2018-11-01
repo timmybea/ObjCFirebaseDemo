@@ -16,6 +16,8 @@
 		B03F7BCE216ECDF3006628FA /* ObjCFirebaseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B03F7BCD216ECDF3006628FA /* ObjCFirebaseDemoTests.m */; };
 		B082F7CB218BB1A7001DB170 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = B082F7CA218BB1A7001DB170 /* Item.m */; };
 		B082F7CE218BB766001DB170 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B082F7CD218BB766001DB170 /* User.m */; };
+		B082F7D2218BB881001DB170 /* GroceryListClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B082F7D1218BB881001DB170 /* GroceryListClass.m */; };
+		B082F7D5218BC137001DB170 /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = B082F7D4218BC137001DB170 /* AppData.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		B082F7CA218BB1A7001DB170 /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
 		B082F7CC218BB766001DB170 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		B082F7CD218BB766001DB170 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		B082F7D0218BB881001DB170 /* GroceryListClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroceryListClass.h; sourceTree = "<group>"; };
+		B082F7D1218BB881001DB170 /* GroceryListClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroceryListClass.m; sourceTree = "<group>"; };
+		B082F7D3218BC137001DB170 /* AppData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
+		B082F7D4218BC137001DB170 /* AppData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				B082F7CA218BB1A7001DB170 /* Item.m */,
 				B082F7CC218BB766001DB170 /* User.h */,
 				B082F7CD218BB766001DB170 /* User.m */,
+				B082F7D0218BB881001DB170 /* GroceryListClass.h */,
+				B082F7D1218BB881001DB170 /* GroceryListClass.m */,
+				B082F7D3218BC137001DB170 /* AppData.h */,
+				B082F7D4218BC137001DB170 /* AppData.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -223,6 +233,8 @@
 			files = (
 				B082F7CE218BB766001DB170 /* User.m in Sources */,
 				B082F7CB218BB1A7001DB170 /* Item.m in Sources */,
+				B082F7D5218BC137001DB170 /* AppData.m in Sources */,
+				B082F7D2218BB881001DB170 /* GroceryListClass.m in Sources */,
 				B03F7BB9216ECDF1006628FA /* ListViewController.m in Sources */,
 				B03F7BC4216ECDF3006628FA /* main.m in Sources */,
 				B03F7BB6216ECDF1006628FA /* AppDelegate.m in Sources */,
