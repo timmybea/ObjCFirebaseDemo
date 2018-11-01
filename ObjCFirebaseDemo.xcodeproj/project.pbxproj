@@ -14,6 +14,8 @@
 		B03F7BC1216ECDF3006628FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B03F7BBF216ECDF3006628FA /* LaunchScreen.storyboard */; };
 		B03F7BC4216ECDF3006628FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B03F7BC3216ECDF3006628FA /* main.m */; };
 		B03F7BCE216ECDF3006628FA /* ObjCFirebaseDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B03F7BCD216ECDF3006628FA /* ObjCFirebaseDemoTests.m */; };
+		B082F7CB218BB1A7001DB170 /* Item.m in Sources */ = {isa = PBXBuildFile; fileRef = B082F7CA218BB1A7001DB170 /* Item.m */; };
+		B082F7CE218BB766001DB170 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B082F7CD218BB766001DB170 /* User.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,10 @@
 		B03F7BC9216ECDF3006628FA /* ObjCFirebaseDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ObjCFirebaseDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B03F7BCD216ECDF3006628FA /* ObjCFirebaseDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjCFirebaseDemoTests.m; sourceTree = "<group>"; };
 		B03F7BCF216ECDF3006628FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B082F7C9218BB1A7001DB170 /* Item.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Item.h; sourceTree = "<group>"; };
+		B082F7CA218BB1A7001DB170 /* Item.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Item.m; sourceTree = "<group>"; };
+		B082F7CC218BB766001DB170 /* User.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		B082F7CD218BB766001DB170 /* User.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 				B03F7BB5216ECDF1006628FA /* AppDelegate.m */,
 				B03F7BB7216ECDF1006628FA /* ListViewController.h */,
 				B03F7BB8216ECDF1006628FA /* ListViewController.m */,
+				B082F7CF218BB76C001DB170 /* Model */,
 				B03F7BBA216ECDF1006628FA /* Main.storyboard */,
 				B03F7BBD216ECDF3006628FA /* Assets.xcassets */,
 				B03F7BBF216ECDF3006628FA /* LaunchScreen.storyboard */,
@@ -101,6 +108,17 @@
 				B03F7BCF216ECDF3006628FA /* Info.plist */,
 			);
 			path = ObjCFirebaseDemoTests;
+			sourceTree = "<group>";
+		};
+		B082F7CF218BB76C001DB170 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B082F7C9218BB1A7001DB170 /* Item.h */,
+				B082F7CA218BB1A7001DB170 /* Item.m */,
+				B082F7CC218BB766001DB170 /* User.h */,
+				B082F7CD218BB766001DB170 /* User.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,6 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B082F7CE218BB766001DB170 /* User.m in Sources */,
+				B082F7CB218BB1A7001DB170 /* Item.m in Sources */,
 				B03F7BB9216ECDF1006628FA /* ListViewController.m in Sources */,
 				B03F7BC4216ECDF3006628FA /* main.m in Sources */,
 				B03F7BB6216ECDF1006628FA /* AppDelegate.m in Sources */,

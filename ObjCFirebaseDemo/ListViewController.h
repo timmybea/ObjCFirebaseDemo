@@ -8,8 +8,14 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ListViewController : UIViewController
+@interface ListViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+@property (weak, nonatomic) IBOutlet UITableView *listsTableView;
+@property (weak, nonatomic) IBOutlet UIButton *profileButton;
+@property (weak, nonatomic) IBOutlet UIButton *listButton;
+
+- (IBAction) listAction: (id) sender;
+- (IBAction) profileAction: (id) sender;
 
 @end
 
