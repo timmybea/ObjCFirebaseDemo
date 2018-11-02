@@ -7,6 +7,7 @@
 //
 
 #import "ListViewController.h"
+#import "GroceryListClass.h"
 
 @interface ListViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [PrepareFirstLists prepare];
+    
+    _sharedInstance = [AppData sharedInstance];
+    
+
 }
 
 //IBActions
@@ -30,13 +36,17 @@
 
 //MARK: UITableView Delegate and Datasource
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return 5;
+    return _sharedInstance.currentList.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"listCell" forIndexPath:indexPath];
-    cell.textLabel.text = @"Test Text";
-    cell.detailTextLabel.text = @"subtitle text";
+    GroceryListClass *currList = _sharedInstance.currentList[indexPath.row];
+    cell.textLabel.text = currList.listName;
+    NSString *subText = [NSString stringWithFormat:@"%lu items for %@",
+                         (unsigned long) currList.listItems.count,
+                         currList.listOwner.name];
+    cell.detailTextLabel.text = subText;
     return cell;
 }
 

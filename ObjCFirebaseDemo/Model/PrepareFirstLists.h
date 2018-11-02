@@ -1,5 +1,5 @@
 //
-//  AppData.h
+//  PrepareFirstLists.h
 //  ObjCFirebaseDemo
 //
 //  Created by Tim Beals on 2018-11-01.
@@ -7,18 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "AppData.h"
 #import "GroceryListClass.h"
+#import "Item.h"
+#import "User.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface AppData : NSObject
+@interface PrepareFirstLists : NSObject
+
++ (void)prepare;
 
 
-
-@property (nonatomic, strong) User *currentUser;
-@property (nonatomic, strong) NSMutableArray<GroceryListClass *> *currentList;
-
-+ (id) sharedInstance;
 
 @end
 

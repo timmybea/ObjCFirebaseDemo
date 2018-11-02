@@ -18,6 +18,7 @@
 		B082F7CE218BB766001DB170 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = B082F7CD218BB766001DB170 /* User.m */; };
 		B082F7D2218BB881001DB170 /* GroceryListClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B082F7D1218BB881001DB170 /* GroceryListClass.m */; };
 		B082F7D5218BC137001DB170 /* AppData.m in Sources */ = {isa = PBXBuildFile; fileRef = B082F7D4218BC137001DB170 /* AppData.m */; };
+		B082F7D8218BC317001DB170 /* PrepareFirstLists.m in Sources */ = {isa = PBXBuildFile; fileRef = B082F7D7218BC317001DB170 /* PrepareFirstLists.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 		B082F7D1218BB881001DB170 /* GroceryListClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroceryListClass.m; sourceTree = "<group>"; };
 		B082F7D3218BC137001DB170 /* AppData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppData.h; sourceTree = "<group>"; };
 		B082F7D4218BC137001DB170 /* AppData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppData.m; sourceTree = "<group>"; };
+		B082F7D6218BC317001DB170 /* PrepareFirstLists.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrepareFirstLists.h; sourceTree = "<group>"; };
+		B082F7D7218BC317001DB170 /* PrepareFirstLists.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrepareFirstLists.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +130,8 @@
 				B082F7D1218BB881001DB170 /* GroceryListClass.m */,
 				B082F7D3218BC137001DB170 /* AppData.h */,
 				B082F7D4218BC137001DB170 /* AppData.m */,
+				B082F7D6218BC317001DB170 /* PrepareFirstLists.h */,
+				B082F7D7218BC317001DB170 /* PrepareFirstLists.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 				B082F7CB218BB1A7001DB170 /* Item.m in Sources */,
 				B082F7D5218BC137001DB170 /* AppData.m in Sources */,
 				B082F7D2218BB881001DB170 /* GroceryListClass.m in Sources */,
+				B082F7D8218BC317001DB170 /* PrepareFirstLists.m in Sources */,
 				B03F7BB9216ECDF1006628FA /* ListViewController.m in Sources */,
 				B03F7BC4216ECDF3006628FA /* main.m in Sources */,
 				B03F7BB6216ECDF1006628FA /* AppDelegate.m in Sources */,
